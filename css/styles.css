@@ -446,7 +446,7 @@ img {
 /*===============FOOTER===================*/
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .footer-container {
@@ -933,6 +933,22 @@ img {
         /* Прибрати як підключу зображення */
         max-width: 356px;
         width: calc((100% - 24px) / 2);
+    }
+
+    .footer {
+        padding-left: 108px;
+    }
+
+    .footer-container {
+        gap: 24px;
+    }
+
+    .logo-paragraph {
+        flex-direction: column;
+    }
+
+    .footer-text {
+        width: 264px;
     }
 }
 
