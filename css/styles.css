@@ -177,6 +177,14 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../images/Dark-bg-mob-x2.jpg);
+    }
+}
+
 .hero-title {
     color: #FFFFFF;
     text-align: center;
@@ -894,8 +902,18 @@ img {
     }
 
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Dark-bg-tab.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../images/Dark-bg-tab.jpg);
         padding: 112px 0;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                    rgba(46, 47, 66, 0.70)),
+                url(../images/Dark-bg-tab-x2.jpg);
+        }
     }
 
     .hero-title {
@@ -988,8 +1006,18 @@ img {
     }
 
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../images/people-office.jpg);
         padding: 188px 0;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                    rgba(46, 47, 66, 0.70)),
+                url(../images/people-office-x2.jpg);
+        }
     }
 
     .advantages-list {
@@ -1052,3 +1080,4 @@ img {
 }
 
 /* ======================================= */
+/* ==============Retina images============ */
