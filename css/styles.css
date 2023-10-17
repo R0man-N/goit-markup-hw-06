@@ -950,6 +950,19 @@ img {
     .footer-text {
         width: 264px;
     }
+
+    .social-media-container {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .subscribe-conteiner {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin-top: 72px;
+    }
 }
 
 /* ================================== */
@@ -1005,6 +1018,36 @@ img {
         /* Прибрати як підключу зображення */
         max-width: 360px;
         width: calc((100% - 48px) / 3);
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        flex-wrap: nowrap;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .logo-paragraph {
+        margin-right: 120px;
+    }
+
+
+
+    .social-media-container {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding-right: 80px;
+    }
+
+    .subscribe-conteiner {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 16px;
     }
 }
 
